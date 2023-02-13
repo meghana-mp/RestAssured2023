@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9349" started-at="2023-02-12T14:45:30Z" finished-at="2023-02-12T14:45:39Z">
+  <suite name="Suite" duration-ms="12093" started-at="2023-02-13T17:11:59Z" finished-at="2023-02-13T17:12:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9349" started-at="2023-02-12T14:45:30Z" finished-at="2023-02-12T14:45:39Z">
-      <class name="restassured.day.one.PostDifferentWays">
-        <test-method status="PASS" signature="PostUsingExternalJsonFile()[pri:0, instance:restassured.day.one.PostDifferentWays@6d4b1c02]" name="PostUsingExternalJsonFile" duration-ms="9255" started-at="2023-02-12T14:45:30Z" finished-at="2023-02-12T14:45:39Z">
+    <test name="Test" duration-ms="12093" started-at="2023-02-13T17:11:59Z" finished-at="2023-02-13T17:12:11Z">
+      <class name="restassured.chain.api.GetUser">
+        <test-method status="PASS" signature="TestGetUser(org.testng.ITestContext)[pri:0, instance:restassured.chain.api.GetUser@548e7350]" name="TestGetUser" duration-ms="1529" started-at="2023-02-13T17:12:07Z" finished-at="2023-02-13T17:12:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57855c9a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PostUsingExternalJsonFile -->
-      </class> <!-- restassured.day.one.PostDifferentWays -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TestGetUser -->
+      </class> <!-- restassured.chain.api.GetUser -->
+      <class name="restassured.chain.api.UpdateUser">
+        <test-method status="PASS" signature="TestUpdateUser(org.testng.ITestContext)[pri:0, instance:restassured.chain.api.UpdateUser@1a968a59]" name="TestUpdateUser" duration-ms="1580" started-at="2023-02-13T17:12:08Z" finished-at="2023-02-13T17:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57855c9a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUpdateUser -->
+      </class> <!-- restassured.chain.api.UpdateUser -->
+      <class name="restassured.chain.api.DeleteUser">
+        <test-method status="PASS" signature="TestDeleteUser(org.testng.ITestContext)[pri:0, instance:restassured.chain.api.DeleteUser@4667ae56]" name="TestDeleteUser" duration-ms="1038" started-at="2023-02-13T17:12:10Z" finished-at="2023-02-13T17:12:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57855c9a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDeleteUser -->
+      </class> <!-- restassured.chain.api.DeleteUser -->
+      <class name="restassured.chain.api.CreateUser">
+        <test-method status="PASS" signature="testCreateUser(org.testng.ITestContext)[pri:0, instance:restassured.chain.api.CreateUser@5442a311]" name="testCreateUser" duration-ms="7838" started-at="2023-02-13T17:11:59Z" finished-at="2023-02-13T17:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57855c9a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+      </class> <!-- restassured.chain.api.CreateUser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
